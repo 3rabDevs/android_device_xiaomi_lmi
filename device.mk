@@ -22,6 +22,10 @@ TARGET_SCREEN_WIDTH := 1080
 
 PRODUCT_SHIPPING_API_LEVEL := 29
 
+# Device parts
+PRODUCT_PACKAGES += \
+    DeviceParts
+
 # Fingerprint
 PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.motor@1.0.vendor
